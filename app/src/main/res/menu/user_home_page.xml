@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/userFilterAll"
+        android:orderInCategory="100"
+        android:title="@string/filterAll"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/userFilterCloths"
+        android:orderInCategory="100"
+        android:title="@string/filterCloths"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/userFilterHardware"
+        android:orderInCategory="100"
+        android:title="@string/filterHardware"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/userFilterResturant"
+        android:orderInCategory="100"
+        android:title="@string/filterResturant"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/userFilterShoes"
+        android:orderInCategory="100"
+        android:title="@string/filterShoes"
+        app:showAsAction="never" />
+
+</menu>

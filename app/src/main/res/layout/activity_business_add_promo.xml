@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.szabist.fyp.guideus.BusinessAddPromoActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID: XYZ"
+                android:layout_margin="8dp"
+                android:id="@+id/busStoreID"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/busStoreName"
+                android:layout_margin="8dp"
+                android:hint="Enter Store Name"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/busStoreType"
+                android:layout_margin="8dp"
+                android:textAlignment="center"
+                android:entries="@array/area_arrays"
+                android:prompt="@string/area_prompt"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/busStoreEmail"
+                android:layout_margin="8dp"
+                android:hint="Enter Store Email"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/busStoreContact"
+                android:layout_margin="8dp"
+                android:hint="Enter Store Contact"
+                />
+
+            <EditText
+                android:id="@+id/busStoreDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:layout_margin="8dp"
+                android:hint="Enter Store Description"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/busStoreAddPromo"
+                android:layout_margin="8dp"
+                android:text="Add Promo"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/busStoreAddStore"
+                android:layout_margin="8dp"
+                android:text="Add Store"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

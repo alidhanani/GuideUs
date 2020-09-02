@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.szabist.fyp.guideus.LoginActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login In"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+
+    <Switch
+        android:id="@+id/switchUser"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:textOn="User"
+        android:textOff="Business"
+        android:text="User"
+        android:checked="false"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Username"
+        android:layout_margin="15dp"
+        android:id="@+id/txtLoginUser"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Password"
+        android:password="true"
+        android:layout_margin="15dp"
+        android:id="@+id/txtLoginPass"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Login"
+        android:id="@+id/btnLogin"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account"
+        android:textAlignment="center"
+        android:id="@+id/txtNoAccount"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Pass"
+        android:textAlignment="center"
+        android:id="@+id/txtForgotPass"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        />
+
+</LinearLayout>

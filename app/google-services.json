@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "524654396053",
+    "firebase_url": "https://guideus-9e0c7.firebaseio.com",
+    "project_id": "guideus-9e0c7",
+    "storage_bucket": "guideus-9e0c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524654396053:android:ed6585e0b0cbc27c",
+        "android_client_info": {
+          "package_name": "com.szabist.fyp.guideusdatacollect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524654396053-sa416kofi2g04mmbouqejghn56qh35ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKOc5wFTx-Ac94NUT50pM1Fnqr0hvfcI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524654396053:android:b1754780c4a3e044",
+        "android_client_info": {
+          "package_name": "com.szabist.fyp.guideus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524654396053-sa416kofi2g04mmbouqejghn56qh35ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIKOc5wFTx-Ac94NUT50pM1Fnqr0hvfcI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

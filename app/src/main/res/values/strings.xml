@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">GuideUs</string>
+    <string name="guideUsTitle">Guide Us!</string>
+
+    <string name="area_prompt">Choose a area</string>
+    <string name="store_prompt">Choose a type</string>
+
+    <string-array name="area_arrays">
+        <item>Saddar</item>
+        <item>Nazimabad</item>
+        <item>Clifton</item>
+        <item>Defence</item>
+        <item>Garden</item>
+        <item>PECHS</item>
+        <item>Shahra-e-Faisal</item>
+        <item>Korangi</item>
+    </string-array>
+
+    <string-array name="type_arrays">
+        <item>Food</item>
+        <item>Hardware</item>
+        <item>Electronic</item>
+        <item>OddStore</item>
+        <item>Bank</item>
+        <item>PetrolPump</item>
+        <item>Cloths</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="facebook_app_id">121051475227286</string>
+    <string name="fb_login_protocol_scheme">fb121051475227286</string>
+    <string name="title_activity_user_home_page">UserHomePageActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="filterResturant">Resturant</string>
+    <string name="filterHardware">Hardware</string>
+    <string name="filterCloths">Cloths</string>
+    <string name="filterShoes">Shoes</string>
+    <string name="filterAll">All</string>
+
+    <string name="promoAdd">Add Promo</string>
+
+    <string name="action_user_settings">Settings</string>
+    <string name="action_business_settings">Settings</string>
+    <string name="title_activity_business_user_home_page">BusinessUserHomePageActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_business_home_page">BusinessHomePageActivity</string>
+    <string name="title_activity_user_profile_page">UserProfilePageActivity</string>
+    <string name="title_activity_user_setting_page">UserSettingPageActivity</string>
+    <string name="title_activity_user_help_page">UserHelpPageActivity</string>
+    <string name="title_activity_business_profile_page">BusinessProfilePageActivity</string>
+    <string name="title_activity_business_setting_page">BusinessSettingPage</string>
+    <string name="title_activity_business_help_page">BusinessHelpPageActivity</string>
+    <string name="title_activity_business_my_store_page">BusinessMyStorePageActivity</string>
+
+
+</resources>

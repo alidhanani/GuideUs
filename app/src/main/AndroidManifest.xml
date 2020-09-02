@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.szabist.fyp.guideus">
+
+    <!-- Permissions for operation -->
+    <permission
+        android:name="com.bryansworld.algonquinreview.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.bryansworld.algonquinreview.package.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCPY4CAHe9B_L5GK2X8v7B4vh2mCF0EAWY" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="com.szabist.fyp.guideus.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".BusinessActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".UserHomePageActivity"
+            android:label="@string/title_activity_user_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessHomePageActivity"
+            android:label="@string/title_activity_business_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserProfilePageActivity"
+            android:label="@string/title_activity_user_profile_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserSettingPageActivity"
+            android:label="@string/title_activity_user_setting_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserHelpPageActivity"
+            android:label="@string/title_activity_user_help_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessProfilePageActivity"
+            android:label="@string/title_activity_business_profile_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessSettingPage"
+            android:label="@string/title_activity_business_setting_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessHelpPageActivity"
+            android:label="@string/title_activity_business_help_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessMyStorePageActivity"
+            android:label="@string/title_activity_business_my_store_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BusinessAddPromoActivity" />
+        <activity android:name=".BusinessModifyPromoActivity" />
+        <activity android:name=".PasswordUserActivity" />
+        <activity android:name=".UserImageActivity" />
+        <activity android:name=".BusinessImageActivity" />
+        <activity android:name=".BusinessMappingActivity" />
+        <activity android:name=".UserMappingActivity"></activity>
+    </application>
+
+</manifest>
